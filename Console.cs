@@ -9,21 +9,21 @@ namespace ConsoleApp
             int grade = int.parse(ConsoleApp.ReadLine());
             if (grade >= 90)
             {
-                ConsoleApp.WriteLine("The grade is: A");
+                Console.WriteLine("The grade is: A");
             }
             else if (grade >=80)
             {
-                ConsoleApp.WriteLine("The grade is: B");
+                Console.WriteLine("The grade is: B");
             }
             else if (grade >=70)
             {
-                ConsoleApp.WriteLine("The grade is: C");
+                Console.WriteLine("The grade is: C");
             }else if (grade >=60)
             {
-                ConsoleApp.WriteLine("The grade is: D");
+                Console.WriteLine("The grade is: D");
             }else
             {
-                ConsoleApp.WriteLine("The grade is: F")
+                Console.WriteLine("The grade is: F")
             }
         }
     }
